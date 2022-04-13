@@ -70,6 +70,7 @@ def add_user_to_db(cur):
     cur.executescript(record)
     return show_table()
 
+
 class User:
     """Create valid user class"""
 
